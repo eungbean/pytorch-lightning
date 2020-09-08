@@ -67,7 +67,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3313](https://github.com/PyTorchLightning/pytorch-lightning/pull/3313),
         [#3314](https://github.com/PyTorchLightning/pytorch-lightning/pull/3314))
    * duplicate data interface definition up into DataHooks class ([#3344](https://github.com/PyTorchLightning/pytorch-lightning/pull/3344))
-   * inner train loop (intermediate step) ([#3359](https://github.com/PyTorchLightning/pytorch-lightning/pull/3359),
+   * inner train loop ([#3359](https://github.com/PyTorchLightning/pytorch-lightning/pull/3359),
         [#3361](https://github.com/PyTorchLightning/pytorch-lightning/pull/3361),
         [#3362](https://github.com/PyTorchLightning/pytorch-lightning/pull/3362),
         [#3363](https://github.com/PyTorchLightning/pytorch-lightning/pull/3363),
@@ -81,7 +81,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3372](https://github.com/PyTorchLightning/pytorch-lightning/pull/3372),
         [#3373](https://github.com/PyTorchLightning/pytorch-lightning/pull/3373),
         [#3374](https://github.com/PyTorchLightning/pytorch-lightning/pull/3374),
-        [#3375](https://github.com/PyTorchLightning/pytorch-lightning/pull/3375))
+        [#3375](https://github.com/PyTorchLightning/pytorch-lightning/pull/3375),
+        [#3376](https://github.com/PyTorchLightning/pytorch-lightning/pull/3376),
+        [#3385](https://github.com/PyTorchLightning/pytorch-lightning/pull/3385),
+        [#3388](https://github.com/PyTorchLightning/pytorch-lightning/pull/3388),
+        [#3397](https://github.com/PyTorchLightning/pytorch-lightning/pull/3397))
+   * all logging related calls in a connector ([#3395](https://github.com/PyTorchLightning/pytorch-lightning/pull/3395))
 
 - Renaming of precision recall metric ([#3308](https://github.com/PyTorchLightning/pytorch-lightning/pull/3308))
 

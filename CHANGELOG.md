@@ -87,6 +87,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3388](https://github.com/PyTorchLightning/pytorch-lightning/pull/3388),
         [#3397](https://github.com/PyTorchLightning/pytorch-lightning/pull/3397))
    * all logging related calls in a connector ([#3395](https://github.com/PyTorchLightning/pytorch-lightning/pull/3395))
+   * device parser ([#3400](https://github.com/PyTorchLightning/pytorch-lightning/pull/3400),
+        [#3405](https://github.com/PyTorchLightning/pytorch-lightning/pull/3405))
+   * added model connector ([#3407](https://github.com/PyTorchLightning/pytorch-lightning/pull/3407))
+   * moved eval loop logging to loggers ([#3408](https://github.com/PyTorchLightning/pytorch-lightning/pull/3408))
 
 - Renaming of precision recall metric ([#3308](https://github.com/PyTorchLightning/pytorch-lightning/pull/3308))
 

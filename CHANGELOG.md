@@ -91,6 +91,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3405](https://github.com/PyTorchLightning/pytorch-lightning/pull/3405))
    * added model connector ([#3407](https://github.com/PyTorchLightning/pytorch-lightning/pull/3407))
    * moved eval loop logging to loggers ([#3408](https://github.com/PyTorchLightning/pytorch-lightning/pull/3408))
+   * moved eval loop (#3412[#3408](https://github.com/PyTorchLightning/pytorch-lightning/pull/3408))
+   * trainer/separate argparse ([#3421](https://github.com/PyTorchLightning/pytorch-lightning/pull/3421),
+        [#3428](https://github.com/PyTorchLightning/pytorch-lightning/pull/3428),
+        [#3432](https://github.com/PyTorchLightning/pytorch-lightning/pull/3432))
+   * move `lr_finder` ([#3434](https://github.com/PyTorchLightning/pytorch-lightning/pull/3434))
+   * organize args (#[#3435](https://github.com/PyTorchLightning/pytorch-lightning/pull/3435),
+        [#3442](https://github.com/PyTorchLightning/pytorch-lightning/pull/3442),
+        [#3447](https://github.com/PyTorchLightning/pytorch-lightning/pull/3447),
+        [#3448](https://github.com/PyTorchLightning/pytorch-lightning/pull/3448),
+        [#3449](https://github.com/PyTorchLightning/pytorch-lightning/pull/3449))
 
 - Renaming of precision recall metric ([#3308](https://github.com/PyTorchLightning/pytorch-lightning/pull/3308))
 
@@ -139,6 +149,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Fixed (weights only) checkpoints loading without PL ([#3287](https://github.com/PyTorchLightning/pytorch-lightning/pull/3287))
 
 - Fixed `gather_all_tensors` cross GPUs in DDP ([#3319](https://github.com/PyTorchLightning/pytorch-lightning/pull/3319))
+
+- Fixed CometML save dir ([#3419](https://github.com/PyTorchLightning/pytorch-lightning/pull/3419))
 
 ## [0.9.0] - 2020-08-20
 

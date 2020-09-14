@@ -100,7 +100,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3442](https://github.com/PyTorchLightning/pytorch-lightning/pull/3442),
         [#3447](https://github.com/PyTorchLightning/pytorch-lightning/pull/3447),
         [#3448](https://github.com/PyTorchLightning/pytorch-lightning/pull/3448),
-        [#3449](https://github.com/PyTorchLightning/pytorch-lightning/pull/3449))
+        [#3449](https://github.com/PyTorchLightning/pytorch-lightning/pull/3449),
+        [#3456](https://github.com/PyTorchLightning/pytorch-lightning/pull/3456))
+   * move specific accelerator code ([#3457](https://github.com/PyTorchLightning/pytorch-lightning/pull/3457))
+   * group connectors ([#3472](https://github.com/PyTorchLightning/pytorch-lightning/pull/3472))
+   * accelerator connector methods x/n ([#3469](https://github.com/PyTorchLightning/pytorch-lightning/pull/3469),
+        [#3470](https://github.com/PyTorchLightning/pytorch-lightning/pull/3470),
+        [#3474](https://github.com/PyTorchLightning/pytorch-lightning/pull/3474))
+   * merge backends x/n ([#3476](https://github.com/PyTorchLightning/pytorch-lightning/pull/3476),
+        [#3477](https://github.com/PyTorchLightning/pytorch-lightning/pull/3477),
+        [#3478](https://github.com/PyTorchLightning/pytorch-lightning/pull/3478),
+        [#3480](https://github.com/PyTorchLightning/pytorch-lightning/pull/3480),
+        [#3482](https://github.com/PyTorchLightning/pytorch-lightning/pull/3482))
 
 - Renaming of precision recall metric ([#3308](https://github.com/PyTorchLightning/pytorch-lightning/pull/3308))
 
@@ -109,6 +120,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Used `fsspec` instead of `gfile` for all IO ([#3320](https://github.com/PyTorchLightning/pytorch-lightning/pull/3320))
 
 - Refactor `GPUStatsMonitor` to improve training speed ([#3257](https://github.com/PyTorchLightning/pytorch-lightning/pull/3257))
+
+- Silenced some warnings. verified ddp refactors ([#3483](https://github.com/PyTorchLightning/pytorch-lightning/pull/3483))
+
+- Cleaning up stale logger tests ([#3490](https://github.com/PyTorchLightning/pytorch-lightning/pull/3490))
 
 ### Deprecated
 
@@ -151,6 +166,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Fixed `gather_all_tensors` cross GPUs in DDP ([#3319](https://github.com/PyTorchLightning/pytorch-lightning/pull/3319))
 
 - Fixed CometML save dir ([#3419](https://github.com/PyTorchLightning/pytorch-lightning/pull/3419))
+
+- Fixed forward key metrics ([#3467](https://github.com/PyTorchLightning/pytorch-lightning/pull/3467))
 
 ## [0.9.0] - 2020-08-20
 

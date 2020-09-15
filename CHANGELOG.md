@@ -112,6 +112,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3478](https://github.com/PyTorchLightning/pytorch-lightning/pull/3478),
         [#3480](https://github.com/PyTorchLightning/pytorch-lightning/pull/3480),
         [#3482](https://github.com/PyTorchLightning/pytorch-lightning/pull/3482))
+   * apex plugin ([#3502](https://github.com/PyTorchLightning/pytorch-lightning/pull/3502))
 
 - Renaming of precision recall metric ([#3308](https://github.com/PyTorchLightning/pytorch-lightning/pull/3308))
 
@@ -168,6 +169,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Fixed CometML save dir ([#3419](https://github.com/PyTorchLightning/pytorch-lightning/pull/3419))
 
 - Fixed forward key metrics ([#3467](https://github.com/PyTorchLightning/pytorch-lightning/pull/3467))
+
+- Fixed normalize mode at confusion matrix (replace NaNs with zeros) ([#3465](https://github.com/PyTorchLightning/pytorch-lightning/pull/3465))
+
+- Fixed Metric aggregation ([#3321](https://github.com/PyTorchLightning/pytorch-lightning/pull/3321))
 
 ## [0.9.0] - 2020-08-20
 

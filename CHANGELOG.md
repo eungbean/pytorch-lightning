@@ -113,6 +113,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
         [#3480](https://github.com/PyTorchLightning/pytorch-lightning/pull/3480),
         [#3482](https://github.com/PyTorchLightning/pytorch-lightning/pull/3482))
    * apex plugin ([#3502](https://github.com/PyTorchLightning/pytorch-lightning/pull/3502))
+   * precision plugins ([#3504](https://github.com/PyTorchLightning/pytorch-lightning/pull/3504))
 
 - Renaming of precision recall metric ([#3308](https://github.com/PyTorchLightning/pytorch-lightning/pull/3308))
 

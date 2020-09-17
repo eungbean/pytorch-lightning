@@ -267,7 +267,7 @@ def accuracy(
 
     """
     if not (target > 0).any() and num_classes is None:
-        raise RuntimeError("cannot infer num_classes when target is all zero")
+        raise RuntimeError("cannot infer num_classes when target is all zero. If you input all-zero tensor, please specify 'num_classes=' value.")
 
     tps, fps, tns, fns, sups = stat_scores_multiple_classes(
         pred=pred, target=target, num_classes=num_classes)
